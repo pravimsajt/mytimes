@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.header img {
+  padding-left: 30px;
+}
+.header p {
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 20cm;
+  color: MediumAquamarine;
+}
+.header span {
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main {
+  display: flex;
+  color: red;
+
+  flex-direction: column;
+  padding-top: 100px;
+
+}
+.main.large {
+  display: flex;
+  color: blue;
+  flex-direction: column;
+}
+.main .medium {
+  display: flex;
+  flex-direction: column;
+}
