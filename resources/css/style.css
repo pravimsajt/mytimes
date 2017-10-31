@@ -9,6 +9,9 @@
   font-size: 14px;
   font-weight: bold;
 }
+div {
+  border: 1px solid black;
+}
 .header img {
   padding-left: 30px;
 }
@@ -26,17 +29,16 @@
 .main {
   display: flex;
   color: red;
-
-  flex-direction: column;
+  flex-direction: row;
   padding-top: 100px;
 
 }
-.main.large {
-  display: flex;
-  color: blue;
-  flex-direction: column;
+.large {
+  width: 630px;
 }
-.main .medium {
-  display: flex;
-  flex-direction: column;
+.medium {
+  width: 300px;
+}
+.small {
+  width: 240px;
 }
