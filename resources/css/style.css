@@ -28,17 +28,21 @@ div {
 }
 .main {
   display: flex;
-  color: red;
   flex-direction: row;
+  width: 100%;
   padding-top: 100px;
-
 }
 .large {
   width: 630px;
+  margin-right: 30px;
+
 }
 .medium {
   width: 300px;
+  margin-right: 30px;
+
 }
 .small {
   width: 240px;
+
 }
