@@ -10,8 +10,7 @@
   font-weight: bold;
   z-index: 2;
 }
-div {
-  border: 1px solid black;
+
 }
 .header img {
   padding-left: 30px;
@@ -108,4 +107,22 @@ div {
 .stories {
   display: flex;
   justify-content: space-between;
+}
+.bites {
+  display: flex;
+  flex-direction: column;
+}
+.bites span {
+ background-color: WhiteSmoke;
+ font-family: Verdana;
+ font-size: 12px;
+ padding: 11px 20px;
+ margin-top: 0 0;
+ color: DimGray;
+ border-bottom: 1px solid black;
+}
+.bites h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
 }
